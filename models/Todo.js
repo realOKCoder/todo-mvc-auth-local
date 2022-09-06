@@ -12,6 +12,10 @@ const TodoSchema = new mongoose.Schema({
   userId: {
     type: String,
     required: true
+  },
+  todoNote: {
+    type: String,
+    // required: true
   }
 })
 
